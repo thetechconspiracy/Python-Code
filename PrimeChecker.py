@@ -1,6 +1,7 @@
 #Generates all prime numbers, up to the input
 print("Enter a number to generate all primes up to the input")
-num = input() #Number to stop checking for prime numbers at
+#num = input() #Number to stop checking for prime numbers at
+num = 99999999999999999999999999999999
 for i in range (1, int(num), 2): #Step 2, as an even number can't be prime
     prime = False
     for j in range (2, i):
